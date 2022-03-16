@@ -20,7 +20,7 @@
 	// "forwardPorts": [3000, 27017],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g @nestjs/cli",
+	"postCreateCommand": "npm i -g @nestjs/cli && npm i mongodb && npm i @types/mongodb",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
